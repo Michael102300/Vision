@@ -6,7 +6,7 @@
 body{
     text-align: center;
 }
-input[type=text], select {
+.DataLabel{
     width: 100%;
     padding-top: 12px;
     margin: 2px;
@@ -14,11 +14,13 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    font: 1em ;
+    text-align: start;
+    color: grey;
 }
 label{
     float: left;
     font: 1em ;
+    
 }
 .Container-Header{
     display: flex;

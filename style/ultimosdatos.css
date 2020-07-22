@@ -6,7 +6,8 @@
 body{
     text-align: center;
 }
-input[type=text], select {
+label{
+    font: 1em ;
     width: 100%;
     padding-top: 12px;
     margin: 2px;
@@ -16,10 +17,8 @@ input[type=text], select {
     box-sizing: border-box;
     font-size: 18pt ;
     margin-bottom: 20px;
-}
-label{
-    float: left;
-    font: 1em ;
+    text-align: start;
+    color: gray;
 }
 .Container-Header{
     display: flex;

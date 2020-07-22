@@ -1,17 +1,18 @@
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=StyleSheet HREF="../style/datosactuales.css" TYPE="text/css" MEDIA=screen>
+    <link rel=StyleSheet HREF="{% static 'datosactuales.css'%}" TYPE="text/css" MEDIA=screen>
     <title>Datos actuales</title>
 </head>
 <body>
     <div class="Container"> 
         <div class="Container-Header">
             <div class="Icon">
-                <a href="../index.html">
-                    <img src="../assets/Polygon 1.png" width="80%" height="80%" >
+                <a href="{% url 'index'%}">
+                    <img src="" width="80%" height="80%" >
                 </a>
             </div>
             <h5>
@@ -22,7 +23,7 @@
         <div class="Container-Main">
             <div class="Container-MainTop">
                 <div class="Container-Photo">
-                    <img  class="Photo" src="https://www.pruebaderuta.com/wp-content/uploads/2016/03/placa-amarilla.jpg" width="100%" height="100%">
+                    <img  class="Photo" src="https://citizenmed.files.wordpress.com/2011/08/user-icon1.jpg" width="100%" height="100%">
                 </div>
                 <div class="Container-State">
                     Estado

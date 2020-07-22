@@ -1,17 +1,18 @@
+{% load static%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel=StyleSheet HREF="../style/ultimosdatos.css" TYPE="text/css" MEDIA=screen>
+    <link rel=StyleSheet HREF="{% static 'ultimosdatos.css'%}" TYPE="text/css" MEDIA=screen>
     <title>ultimos datos</title>
 </head>
 <body>
     <div class="Container">
         <div class="Container-Header">
             <div class="Icon">
-                <a href="../index.html">
-                    <img src="../assets/Polygon 1.png" width="80%" height="80%" >
+                <a href="{% url 'index'%}">
+                    <img src="" width="80%" height="80%" >
                 </a>
             </div>
             <h5>
@@ -28,7 +29,6 @@
                         <label for="fname">{{tabla2.id}} {{tabla2.Nombres}} {{tabla2.Apellidos}}</label><br>
                         <label for="fname">{{tabla3.id}} {{tabla3.Nombres}} {{tabla3.Apellidos}}</label><br>
                     </form>
-                    
                 </div>
             </div>
         </div>
